@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules
+dist
+.cache
+
+# Vercel
+.vercel
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# IDE / OS
+.idea
+*.iml
+.vscode
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*

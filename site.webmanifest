@@ -1,0 +1,12 @@
+{
+  "short_name": "Jota Edi",
+  "name": "Jota Edi – Acabamentos de Alto Padrão",
+  "icons": [
+    { "src": "icon.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#1E1B19",
+  "theme_color": "#1E1B19"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "jota-edi-site",
+  "version": "0.0.1",
+  "description": "Site institucional – Jota Edi Acabamentos de Alto Padrão",
+  "private": true,
+  "keywords": [
+    "acabamentos de alto padrão",
+    "texturas decorativas",
+    "cimento queimado",
+    "aço corten",
+    "São Paulo"
+  ],
+  "license": "",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^14.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0",
+    "webpack-merge": "^6.0.1"
+  }
+}
